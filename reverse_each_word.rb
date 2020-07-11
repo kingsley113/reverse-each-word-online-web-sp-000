@@ -13,7 +13,7 @@ def reverse_each_word(word)
   reversed_words = []
   word_array.collect do |word|
      reversed = word.reverse
-     #puts "#{reversed}"
+     puts "#{reversed}"
   end
   reversed_phrase = word_array.join(" ")
   puts "#{reversed_phrase}"
