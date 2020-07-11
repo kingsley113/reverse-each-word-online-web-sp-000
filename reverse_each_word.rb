@@ -7,6 +7,9 @@
 #  reversed_phrase = reversed_words.join(" ")
 #end
 
+def word_reverse(word)
+  word.collect {|x| x.reverse}
+end
 
 def reverse_each_word(word)
   word_array = word.split(" ")
@@ -20,8 +23,3 @@ end
 
 test_sentence = "This is the test sentence, why wont you reverse!?"
 reverse_each_word(test_sentence)
-
-
-def word_reverse(word)
-  word.collect {|x| x.reverse}
-end
