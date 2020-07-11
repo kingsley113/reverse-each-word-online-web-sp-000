@@ -17,3 +17,7 @@ def reverse_each_word(word)
   end
   reversed_phrase = word_array.join(" ")
 end
+
+
+test_sentence = "This is the test sentence, why wont you reverse!?"
+reverse_each_word(test_sentence)
