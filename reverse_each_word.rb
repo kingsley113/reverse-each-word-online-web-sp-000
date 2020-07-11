@@ -6,3 +6,13 @@ def reverse_each_word(word)
   end
   reversed_phrase = reversed_words.join(" ")
 end
+
+
+def reverse_each_word(word)
+  word_array = word.split(" ")
+  reversed_words = []
+  word_array.collect do | word |
+    word.reverse
+  end
+  reversed_phrase = word.join(" ")
+end
