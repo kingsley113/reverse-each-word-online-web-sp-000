@@ -14,5 +14,5 @@ def reverse_each_word(word)
   word_array.collect do | word |
     word.reverse
   end
-  reversed_phrase = word.join(" ")
+  reversed_phrase = word_array.join(" ")
 end
