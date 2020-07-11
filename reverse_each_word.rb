@@ -17,9 +17,9 @@ def reverse_each_word(word)
   # reversed = word_reverse(word_array)
   reversed = word_array.collect {|word| word.reverse}
   reversed_phrase = reversed.join(" ")
-  puts "#{reversed_phrase}"
+#  puts "#{reversed_phrase}"
 end
 
 
-test_sentence = "This is the test sentence, why wont you reverse!?"
-reverse_each_word(test_sentence)
+#test_sentence = "This is the test sentence, why wont you reverse!?"
+#reverse_each_word(test_sentence)
