@@ -12,7 +12,7 @@ def reverse_each_word(word)
   word_array = word.split(" ")
   reversed_words = []
   word_array.collect do | word |
-    word = word.reverse
+    reversed_word = word.reverse
   end
-  reversed_phrase = word_array.join(" ")
+  reversed_phrase = reversed_word.join(" ")
 end
