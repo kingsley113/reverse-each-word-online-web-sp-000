@@ -16,6 +16,7 @@ def reverse_each_word(word)
      #puts "#{reversed}"
   end
   reversed_phrase = word_array.join(" ")
+  puts "#{reversed_phrase}"
 end
 
 
