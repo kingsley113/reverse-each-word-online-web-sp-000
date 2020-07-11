@@ -13,9 +13,9 @@ end
 
 def reverse_each_word(word)
   word_array = word.split(" ")
-  reversed_words = []
-  reversed = word_reverse(word_array)
-
+  # reversed_words = []
+  # reversed = word_reverse(word_array)
+  reversed = word_array.collect {|word| word.reverse}
   reversed_phrase = reversed.join(" ")
   puts "#{reversed_phrase}"
 end
