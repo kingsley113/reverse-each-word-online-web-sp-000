@@ -6,5 +6,5 @@ def reverse_each_word(word)
   reversed_phrase = reversed_words.join
 end
 
-  
+
   
